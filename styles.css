@@ -157,4 +157,28 @@ color: black;
 padding: 70px;
 }
 
+@media(max-width: 480px){
+#grid{
+  display: flex;
+  flex-direction: column;
+}
+}
+
+#vid{
+position: relative;
+float: center;
+
+}
+
+#copyright{
+display: flex;
+justify-content: flex-end;
+}
+
+footer > ul{
+display: flex;
+justify-content: flex-end;
+}
+
+
 
